@@ -1,6 +1,11 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body{
-  background-color: #181818;
-  margin:0;
+  background-color: #000;
+  margin:0 0 100px;
 
 }
 
@@ -135,17 +140,22 @@ a {
 
 .footer{
   background-color: black;
+  position: absolute;
+  left: 0;
+  bottom: 0;
   color: white;
   font-size:.5rem;
   text-align: center;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 40px;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 2em;
+  text-align: center;
 }
 
 .footer-text{
-  margin: auto;
+  margin-left: 2em;
+  margin-right: 2em;
   
 }
 
